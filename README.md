@@ -1,6 +1,6 @@
 # 🎬 ShortKit — The Ultimate Chrome Extension for TikTok
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/shortkit-%E2%80%93-level-up-your/kcihaacmobnfpcellccakhmbhkjdlkbf)
 [![Download ZIP](https://img.shields.io/badge/Download-Latest_ZIP-success?style=for-the-badge&logo=github)](https://github.com/diepvantien/Tiktok-Pro-Tools/archive/refs/heads/main.zip)
 [![Version](https://img.shields.io/badge/Version-1.1.0-fe2c55?style=for-the-badge)]()
 
