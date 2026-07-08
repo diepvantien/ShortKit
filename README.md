@@ -2,7 +2,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
 [![Download ZIP](https://img.shields.io/badge/Download-Latest_ZIP-success?style=for-the-badge&logo=github)](https://github.com/diepvantien/Tiktok-Pro-Tools/archive/refs/heads/main.zip)
-[![Version](https://img.shields.io/badge/Version-1.2.0-fe2c55?style=for-the-badge)]()
+[![Version](https://img.shields.io/badge/Version-1.1.0-fe2c55?style=for-the-badge)]()
 
 > Transform your TikTok web experience with professional-grade audio, video, and productivity tools — all running locally in your browser with zero tracking.
 
@@ -56,11 +56,6 @@
 - **Daily Limit System** — set max videos/day or minutes/day
   - *Remind mode*: friendly popup with witty messages you can dismiss
   - *Block mode*: overlay locks the page, pauses all videos until you clear the limit
-- **Keyword Blocker** — auto-hide videos containing words you define
-
-### 🚫 Content Filtering
-- Block videos by keyword (descriptions/captions)
-- Blur matching comments automatically
 
 ---
 
@@ -134,28 +129,27 @@
 
 ## 📝 Changelog
 
-### v1.2.0 (Latest)
-- ✨ Smart Zoom (cursor-following, scroll-wheel control)
-- ✨ Rotate Video (black letterbox, compose with zoom)
-- ✨ Watch History (200 entries, grid with thumbnails + duration)
-- ✨ Daily Limit system (remind or block viewing)
-- ✨ Adaptive Volume Normalizer (RMS-based auto-gain)
-- ✨ Donate via Bank (VietQR) + header donate menu
-- 🔧 Product Viewer redesigned (bottom-left pill, ★ star rating)
-- 🔧 Account Cleanup rebuilt (DOM-only, progress bar, safer)
-- 🔧 3-provider media resolver (tikwm → douyin.wtf → tiklydown)
-- 🔧 Stealth native overrides (reduce checkpoint risk)
-- 🐛 Fixed session logout caused by cookie-bearing mobile-UA requests
-- 🐛 Fixed Undo Repost / Remove Favorite selectors
-- ❌ Removed Auto-Scroll (BG) for stability
+### v1.1.0 (Latest)
+- ✨ **Anonymous Story View** — watch public Stories without leaving a "seen" on your account
+- ✨ **Bulk download** — grab every video on a profile, to a folder or as a `.txt` link list
+- ✨ **Shop-video Cinema popup** — plays region-locked shop clips with sound, plus an on-device product QR code
+- 🔧 Most features are **ON by default** now (except Auto-PiP & Clean Mode)
+- 🐛 Fixed duplicate toolbar showing when opening a video on search / profile pages
+- 🐛 Fixed frozen-frame (thumbnail + audio only) caused by injecting UI into the player
+- ❌ Removed the **Block Keywords** feature
+- 🔒 Dropped the `tabs` permission — no more "read browsing history" warning
 
-### v1.1.0
-- Fixed TikTok Shop product info retrieval
-- Fixed intermittent account sign-out issues
-- Fixed old audio bleeding between videos
-
-### v1.0.4
-- Initial public release
+### v1.0.0
+- ✨ Rebranded to **ShortKit**
+- ✨ 8-band Equalizer with presets + custom curve
+- ✨ Background Play, Auto PiP, Smart Auto-Pause, playback speed
+- ✨ Adaptive Volume Normalizer, 360° spatial audio
+- ✨ Rotate, Smart Zoom, Clean Mode
+- ✨ Inline / URL download (MP4 + MP3) with 3-provider failover, subtitle `.srt` download
+- ✨ Playlist player (vinyl / sound-wave themes, shuffle, repeat, import/export)
+- ✨ Watch-time dashboard, watch history, daily limits
+- ✨ Account cleanup (bulk unfollow / unlike / remove favorites / undo reposts)
+- ✨ Product Viewer for shop videos
 
 ---
 

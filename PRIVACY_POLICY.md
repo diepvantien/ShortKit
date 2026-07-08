@@ -17,10 +17,11 @@ To provide its functionality, the extension requires specific Chrome browser per
 - **Host Permissions (`*://*.tiktok.com/*`)**: Required to inject scripts that control the video player (e.g., speed control, equalizer, Auto PiP, auto-pause) and customize the TikTok interface (e.g., clean mode, removing text overlays).
 - **Host Permissions (TikTok CDNs: `*.tiktokcdn.com`, `*.tiktokcdn-us.com`, `*.tiktokcdn-eu.com`, `*.ibytedtos.com`, `*.byteoversea.com`)**: Required to read subtitle tracks and check media file sizes when you use the subtitle-download and download features.
 - **Host Permissions (`https://tikwm.com/*`, `https://api.douyin.wtf/*`, `https://api.tiklydown.eu.org/*`)**: Required to resolve watermark-free video/audio download links and playlist media, only when requested by you.
-- **`tabs`**: Used to detect whether the active tab is a TikTok page and to open the Playlist player in a new tab. The extension does not track or log your browsing across tabs.
-- **`storage`**: Used exclusively to save your local settings, playlists, and usage stats (e.g., playback speed, EQ presets, blocked keywords) directly on your device.
+- **Product QR code**: The QR code shown in the shop viewer is generated entirely on your device (bundled generator) and encodes only the plain public product URL. No affiliate code or tracking is added, and no data is sent to any third-party service to create it.
+
+- **`storage`**: Used exclusively to save your local settings, playlists, and usage stats (e.g., playback speed, EQ presets, feature toggles) directly on your device.
 - **`downloads`**: Allows the extension to trigger the native Chrome download manager to save videos, audio, subtitles, and screenshots to your device.
-- **`declarativeNetRequest`**: Used strictly to modify network headers locally to unlock regional shop videos.
+- **`declarativeNetRequest`**: Used strictly to modify network locally: (a) to unlock regional shop videos, and (b) when you enable "Anonymous Story View", to remove the Cookie header from TikTok's behavioural report/telemetry requests and to block TikTok's real-time report socket (the channel that reports a Story "seen") so a Story view is not tied to your account. It only targets reporting/telemetry channels — never the feed, video media, or login — works entirely on-device, and sends no data anywhere.
 - **`alarms`**: Used to keep the background worker responsive and to perform lightweight background tasks (e.g., daily watch-time limits).
 
 ## Analytics and Tracking
