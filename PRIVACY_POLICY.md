@@ -14,8 +14,8 @@ ShortKit is designed to function entirely within your local browser. It does not
 
 To provide its functionality, the extension requires specific Chrome browser permissions:
 
-- **Host Permissions (`*://*.tiktok.com/*`)**: Required to inject scripts that control the video player (e.g., speed control, equalizer, Auto PiP, auto-pause) and customize the TikTok interface (e.g., clean mode, removing text overlays).
-- **Host Permissions (TikTok CDNs: `*.tiktokcdn.com`, `*.tiktokcdn-us.com`, `*.tiktokcdn-eu.com`, `*.ibytedtos.com`, `*.byteoversea.com`)**: Required to read subtitle tracks and check media file sizes when you use the subtitle-download and download features.
+- **Host Permissions (`*://*.tiktok.com/*`)**: Required to inject scripts that control the video player (e.g., speed control, equalizer, auto-pause) and customize the TikTok interface (e.g., clean mode, removing text overlays). Also used, only when you click download on a live page, to call TikTok's own public live API (`www.tiktok.com`, `webcast.tiktok.com`) to resolve the current broadcast's stream URL.
+- **Host Permissions (TikTok CDNs: `*.tiktokcdn.com`, `*.tiktokcdn-us.com`, `*.tiktokcdn-eu.com`, `*.ibytedtos.com`, `*.byteoversea.com`)**: Required to read subtitle tracks, check media file sizes, and save video/live-stream files when you use the subtitle-download, download, and live-download features.
 - **Host Permissions (`https://tikwm.com/*`, `https://api.douyin.wtf/*`, `https://api.tiklydown.eu.org/*`)**: Required to resolve watermark-free video/audio download links and playlist media, only when requested by you.
 - **Product QR code**: The QR code shown in the shop viewer is generated entirely on your device (bundled generator) and encodes only the plain public product URL. No affiliate code or tracking is added, and no data is sent to any third-party service to create it.
 

@@ -1,6 +1,6 @@
 # 🎬 ShortKit — The Ultimate Chrome Extension for TikTok
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/shortkit-%E2%80%93-level-up-your/kcihaacmobnfpcellccakhmbhkjdlkbf)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
 [![Download ZIP](https://img.shields.io/badge/Download-Latest_ZIP-success?style=for-the-badge&logo=github)](https://github.com/diepvantien/Tiktok-Pro-Tools/archive/refs/heads/main.zip)
 [![Version](https://img.shields.io/badge/Version-1.1.0-fe2c55?style=for-the-badge)]()
 
@@ -31,18 +31,26 @@
 
 ### 📺 Video Tools
 - **Background Play** — audio keeps playing when tab is hidden
-- **Auto Picture-in-Picture** — mini floating player with ⏭/⏮ controls
 - **Smart Auto-Pause** — pauses TikTok when other tabs play media
 - **Rotate Video** — 90°/180°/270° with pure black letterbox
 - **Smart Zoom** — cursor-following region zoom, scroll wheel to adjust (1.2×–5×)
-- **Clean Mode** — hides text overlays, descriptions, UI clutter
+- **Clean Mode** — hides text overlays, descriptions, UI clutter (also in fullscreen)
 
 ### 📥 Download & Shop
 - **Inline Download Button** — appears on every video (hover to reveal)
+- **LIVE Download** — record a live broadcast or copy its FLV/HLS stream link, resolved from the channel in the address bar
 - **URL Download Box** — paste any TikTok link to get HD MP4 / MP3
 - **3-Provider Failover** — tikwm → douyin.wtf → tiklydown (always works)
 - **Shop Video Unlocker** — plays region-restricted TikTok Shop videos
 - **Product Viewer** — bottom-left pill shows product name; tap for full details (price, ★ rating, reviews, seller, image, shop link)
+
+### ⌨️ Keyboard Shortcuts
+Act on the video you're watching (ignored while typing in a search/comment box):
+- **← / →** — seek −3s / +3s
+- **, / .** — slower / faster playback
+- **Z** — toggle Smart Zoom
+- **A** — add to Playlist
+- **S** — capture the current frame (screenshot)
 
 ### 🧹 Account Cleanup
 - **Bulk Unfollow** — scan your Following list, select & run
@@ -131,9 +139,13 @@
 
 ### v1.1.0 (Latest)
 - ✨ **Anonymous Story View** — watch public Stories without leaving a "seen" on your account
+- ✨ **LIVE download** — record a broadcast or copy its FLV/HLS link, resolved from the `@channel` in the address bar
 - ✨ **Bulk download** — grab every video on a profile, to a folder or as a `.txt` link list
 - ✨ **Shop-video Cinema popup** — plays region-locked shop clips with sound, plus an on-device product QR code
-- 🔧 Most features are **ON by default** now (except Auto-PiP & Clean Mode)
+- ✨ **Keyboard shortcuts** — ← / → seek ±3s, `,` / `.` speed, `Z` zoom, `A` playlist, `S` screenshot
+- 🔧 Clean Video Mode now also hides overlays in fullscreen
+- 🔧 Create a playlist inline from the in-video menu (no more browser prompt)
+- 🔧 Most features are **ON by default** now (except Clean Mode)
 - 🐛 Fixed duplicate toolbar showing when opening a video on search / profile pages
 - 🐛 Fixed frozen-frame (thumbnail + audio only) caused by injecting UI into the player
 - ❌ Removed the **Block Keywords** feature
@@ -142,7 +154,7 @@
 ### v1.0.0
 - ✨ Rebranded to **ShortKit**
 - ✨ 8-band Equalizer with presets + custom curve
-- ✨ Background Play, Auto PiP, Smart Auto-Pause, playback speed
+- ✨ Background Play, Smart Auto-Pause, playback speed
 - ✨ Adaptive Volume Normalizer, 360° spatial audio
 - ✨ Rotate, Smart Zoom, Clean Mode
 - ✨ Inline / URL download (MP4 + MP3) with 3-provider failover, subtitle `.srt` download
